@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checking out
-        uses: actions/checkout@v7
+        uses: actions/checkout@v7.0.1
       - name: Publish
         id: publish
         uses: actions/publish-immutable-action@v0
